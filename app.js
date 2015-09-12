@@ -4,8 +4,8 @@ var app = express();
 var path = require('path');
 var port = 4000;
 
-// Displays server log in the CLI
-app.use(express.logger());
+// // Displays server log in the CLI
+// app.use(express.logger());
 
 // views as directory for all template files
 app.set('views', path.join(__dirname, 'views'));

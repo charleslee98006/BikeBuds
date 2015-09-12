@@ -27,3 +27,7 @@
 
 /////// Layouts
 @import "layouts/manifest";
+
+body {
+  @include backface-visibility(visible);
+}

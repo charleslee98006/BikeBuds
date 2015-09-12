@@ -22,6 +22,5 @@ app.get('/', function(req, res) {
 });
 
 // Set server port
-http.createServer(app).listen(process.env.PORT || 3000);
-//app.listen(port);
+app.listen(process.env.PORT||port);
 console.log("Server is running at => http://localhost:" + port + "/\nCTRL + C to shutdown");

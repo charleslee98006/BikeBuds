@@ -61,10 +61,10 @@ var port = 4000;
 // // Displays server log in the CLI
 // app.use(express.logger());
 
-var google = require('node-google-api')({
-    apiKey: 'AIzaSyBdwq1SQMg3lT1ESWLFt5CRik12NKM6v3I',
-    debugMode: true // Throws errors instead of passing them silently.
-});
+// var google = require('node-google-api')({
+//     apiKey: 'AIzaSyBdwq1SQMg3lT1ESWLFt5CRik12NKM6v3I',
+//     debugMode: true // Throws errors instead of passing them silently.
+// });
 
 
 // views as directory for all template files
